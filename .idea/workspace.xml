@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d0583fc-bab1-4fe8-8fb7-e13bd667ff50" name="Default Changelist" comment="" />
+    <list default="true" id="2d0583fc-bab1-4fe8-8fb7-e13bd667ff50" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/udacity/jdnd/course3/critter/pet/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/udacity/jdnd/course3/critter/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/udacity/jdnd/course3/critter/repository/PetRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/udacity/jdnd/course3/critter/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/udacity/jdnd/course3/critter/service/PetService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/udacity/jdnd/course3/critter/user/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/udacity/jdnd/course3/critter/config/DataSourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/udacity/jdnd/course3/critter/config/DataSourceConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/udacity/jdnd/course3/critter/pet/PetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/udacity/jdnd/course3/critter/pet/PetController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/udacity/jdnd/course3/critter/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/udacity/jdnd/course3/critter/user/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/udacity/jdnd/course3/critter/CritterFunctionalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/udacity/jdnd/course3/critter/CritterFunctionalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/udacity/jdnd/course3/critter/config/DataSourceConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/udacity/jdnd/course3/critter/config/DataSourceConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/udacity/jdnd/course3/critter/pet/PetController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/udacity/jdnd/course3/critter/pet/PetController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/udacity/jdnd/course3/critter/user/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/udacity/jdnd/course3/critter/user/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/udacity/jdnd/course3/critter/CritterFunctionalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/udacity/jdnd/course3/critter/CritterFunctionalTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,10 +33,17 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1f2kKx5HZyKJyrEOJclHMxmVYDH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,12 +51,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
   </component>
-  <component name="RunManager" selected="Application.CritterApplication">
+  <component name="RunManager" selected="JUnit.CritterFunctionalTest">
     <configuration name="CritterApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.udacity.jdnd.course3.critter.CritterApplication" />
       <module name="critter" />
@@ -89,49 +119,58 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="702" y="149" key="#Project_Structure" timestamp="1595423774306">
-      <screen x="0" y="23" width="1680" height="927" />
+    <state x="702" y="150" key="#Project_Structure" timestamp="1595436602225">
+      <screen x="0" y="23" width="1680" height="934" />
     </state>
     <state x="702" y="149" key="#Project_Structure/0.23.1680.927@0.23.1680.927" timestamp="1595423774306" />
-    <state width="1020" height="245" key="GridCell.Tab.0.bottom" timestamp="1595425090349">
+    <state x="702" y="150" key="#Project_Structure/0.23.1680.934@0.23.1680.934" timestamp="1595436602225" />
+    <state x="779" y="123" width="800" height="721" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1595436115951">
       <screen x="0" y="23" width="1680" height="934" />
     </state>
-    <state width="1111" height="303" key="GridCell.Tab.0.bottom/0.23.1680.927@0.23.1680.927" timestamp="1595423780435" />
-    <state width="1111" height="245" key="GridCell.Tab.0.bottom/0.23.1680.929@0.23.1680.929" timestamp="1595424852089" />
-    <state width="1020" height="245" key="GridCell.Tab.0.bottom/0.23.1680.934@0.23.1680.934" timestamp="1595425090349" />
-    <state width="1020" height="245" key="GridCell.Tab.0.center" timestamp="1595425090348">
+    <state x="779" y="123" width="800" height="721" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1680.934@0.23.1680.934" timestamp="1595436115951" />
+    <state x="1013" y="174" key="#com.intellij.ide.util.MemberChooser" timestamp="1595429814618">
       <screen x="0" y="23" width="1680" height="934" />
     </state>
-    <state width="1111" height="303" key="GridCell.Tab.0.center/0.23.1680.927@0.23.1680.927" timestamp="1595423780434" />
-    <state width="1111" height="245" key="GridCell.Tab.0.center/0.23.1680.929@0.23.1680.929" timestamp="1595424852088" />
-    <state width="1020" height="245" key="GridCell.Tab.0.center/0.23.1680.934@0.23.1680.934" timestamp="1595425090348" />
-    <state width="1020" height="245" key="GridCell.Tab.0.left" timestamp="1595425090348">
-      <screen x="0" y="23" width="1680" height="934" />
+    <state x="1013" y="174" key="#com.intellij.ide.util.MemberChooser/0.23.1680.934@0.23.1680.934" timestamp="1595429814618" />
+    <state width="1002" height="284" key="GridCell.Tab.0.bottom" timestamp="1595512367825">
+      <screen x="0" y="23" width="1680" height="929" />
     </state>
-    <state width="1111" height="303" key="GridCell.Tab.0.left/0.23.1680.927@0.23.1680.927" timestamp="1595423780434" />
-    <state width="1111" height="245" key="GridCell.Tab.0.left/0.23.1680.929@0.23.1680.929" timestamp="1595424852087" />
-    <state width="1020" height="245" key="GridCell.Tab.0.left/0.23.1680.934@0.23.1680.934" timestamp="1595425090348" />
-    <state width="1020" height="245" key="GridCell.Tab.0.right" timestamp="1595425090349">
-      <screen x="0" y="23" width="1680" height="934" />
+    <state width="977" height="284" key="GridCell.Tab.0.bottom/0.23.1680.927@0.23.1680.927" timestamp="1595506728217" />
+    <state width="1002" height="284" key="GridCell.Tab.0.bottom/0.23.1680.929@0.23.1680.929" timestamp="1595512367825" />
+    <state width="958" height="521" key="GridCell.Tab.0.bottom/0.23.1680.934@0.23.1680.934" timestamp="1595439321306" />
+    <state width="1002" height="284" key="GridCell.Tab.0.center" timestamp="1595512367824">
+      <screen x="0" y="23" width="1680" height="929" />
     </state>
-    <state width="1111" height="303" key="GridCell.Tab.0.right/0.23.1680.927@0.23.1680.927" timestamp="1595423780435" />
-    <state width="1111" height="245" key="GridCell.Tab.0.right/0.23.1680.929@0.23.1680.929" timestamp="1595424852088" />
-    <state width="1020" height="245" key="GridCell.Tab.0.right/0.23.1680.934@0.23.1680.934" timestamp="1595425090349" />
-    <state width="1111" height="303" key="GridCell.Tab.1.bottom" timestamp="1595423780438">
+    <state width="977" height="284" key="GridCell.Tab.0.center/0.23.1680.927@0.23.1680.927" timestamp="1595506728216" />
+    <state width="1002" height="284" key="GridCell.Tab.0.center/0.23.1680.929@0.23.1680.929" timestamp="1595512367824" />
+    <state width="958" height="521" key="GridCell.Tab.0.center/0.23.1680.934@0.23.1680.934" timestamp="1595439321305" />
+    <state width="1002" height="284" key="GridCell.Tab.0.left" timestamp="1595512367824">
+      <screen x="0" y="23" width="1680" height="929" />
+    </state>
+    <state width="977" height="284" key="GridCell.Tab.0.left/0.23.1680.927@0.23.1680.927" timestamp="1595506728215" />
+    <state width="1002" height="284" key="GridCell.Tab.0.left/0.23.1680.929@0.23.1680.929" timestamp="1595512367824" />
+    <state width="958" height="521" key="GridCell.Tab.0.left/0.23.1680.934@0.23.1680.934" timestamp="1595439321305" />
+    <state width="1002" height="284" key="GridCell.Tab.0.right" timestamp="1595512367824">
+      <screen x="0" y="23" width="1680" height="929" />
+    </state>
+    <state width="977" height="284" key="GridCell.Tab.0.right/0.23.1680.927@0.23.1680.927" timestamp="1595506728217" />
+    <state width="1002" height="284" key="GridCell.Tab.0.right/0.23.1680.929@0.23.1680.929" timestamp="1595512367824" />
+    <state width="958" height="521" key="GridCell.Tab.0.right/0.23.1680.934@0.23.1680.934" timestamp="1595439321305" />
+    <state width="1111" height="303" key="GridCell.Tab.1.bottom" timestamp="1595492406248">
       <screen x="0" y="23" width="1680" height="927" />
     </state>
-    <state width="1111" height="303" key="GridCell.Tab.1.bottom/0.23.1680.927@0.23.1680.927" timestamp="1595423780438" />
-    <state width="1111" height="303" key="GridCell.Tab.1.center" timestamp="1595423780436">
+    <state width="1111" height="303" key="GridCell.Tab.1.bottom/0.23.1680.927@0.23.1680.927" timestamp="1595492406248" />
+    <state width="1111" height="303" key="GridCell.Tab.1.center" timestamp="1595492406248">
       <screen x="0" y="23" width="1680" height="927" />
     </state>
-    <state width="1111" height="303" key="GridCell.Tab.1.center/0.23.1680.927@0.23.1680.927" timestamp="1595423780436" />
-    <state width="1111" height="303" key="GridCell.Tab.1.left" timestamp="1595423780436">
+    <state width="1111" height="303" key="GridCell.Tab.1.center/0.23.1680.927@0.23.1680.927" timestamp="1595492406248" />
+    <state width="1111" height="303" key="GridCell.Tab.1.left" timestamp="1595492406247">
       <screen x="0" y="23" width="1680" height="927" />
     </state>
-    <state width="1111" height="303" key="GridCell.Tab.1.left/0.23.1680.927@0.23.1680.927" timestamp="1595423780436" />
-    <state width="1111" height="303" key="GridCell.Tab.1.right" timestamp="1595423780437">
+    <state width="1111" height="303" key="GridCell.Tab.1.left/0.23.1680.927@0.23.1680.927" timestamp="1595492406247" />
+    <state width="1111" height="303" key="GridCell.Tab.1.right" timestamp="1595492406248">
       <screen x="0" y="23" width="1680" height="927" />
     </state>
-    <state width="1111" height="303" key="GridCell.Tab.1.right/0.23.1680.927@0.23.1680.927" timestamp="1595423780437" />
+    <state width="1111" height="303" key="GridCell.Tab.1.right/0.23.1680.927@0.23.1680.927" timestamp="1595492406248" />
   </component>
 </project>

@@ -1,8 +1,13 @@
 package com.udacity.jdnd.course3.critter.user;
 
+import com.udacity.jdnd.course3.critter.pet.Pet;
+import com.udacity.jdnd.course3.critter.service.CustomerService;
+import org.springframework.beans.BeanUtils;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.time.DayOfWeek;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
@@ -16,19 +21,27 @@ import java.util.Set;
 @RequestMapping("/user")
 public class UserController {
 
+    @Autowired
+    CustomerService customerService;
+
     @PostMapping("/customer")
     public CustomerDTO saveCustomer(@RequestBody CustomerDTO customerDTO){
-        throw new UnsupportedOperationException();
+        return convertCustomerToCustomerDTO(customerService.saveCustomer(convertCustomerDTOToCustomer(customerDTO)));
     }
 
     @GetMapping("/customer")
     public List<CustomerDTO> getAllCustomers(){
-        throw new UnsupportedOperationException();
+        List<Customer> customers = customerService.getAllCustomers();
+        List<CustomerDTO> customerDTOs = new ArrayList<>();
+        customers.forEach(customer -> {
+            customerDTOs.add(convertCustomerToCustomerDTO(customer));
+        });
+        return customerDTOs;
     }
 
     @GetMapping("/customer/pet/{petId}")
     public CustomerDTO getOwnerByPet(@PathVariable long petId){
-        throw new UnsupportedOperationException();
+        return convertCustomerToCustomerDTO(customerService.getOwnerByPet(petId));
     }
 
     @PostMapping("/employee")
@@ -51,4 +64,30 @@ public class UserController {
         throw new UnsupportedOperationException();
     }
 
+    private CustomerDTO convertCustomerToCustomerDTO(Customer customer) {
+        CustomerDTO customerDTO = new CustomerDTO();
+        List<Long> petIds = new ArrayList<>();
+        BeanUtils.copyProperties(customer, customerDTO);
+        if(customer.getPets() != null) {
+            customer.getPets().forEach(pet -> {
+                petIds.add(pet.getId());
+            });
+        }
+        customerDTO.setPetIds(petIds);
+        return customerDTO;
+    }
+
+    private Customer convertCustomerDTOToCustomer(CustomerDTO customerDTO) {
+        Customer customer = new Customer();
+        BeanUtils.copyProperties(customerDTO, customer);
+        customer.setPets(new ArrayList<>());
+        if(customerDTO.getPetIds() != null && customerDTO.getPetIds().size() > 0) {
+            customerDTO.getPetIds().forEach(id -> {
+                Pet pet = new Pet();
+                pet.setId(id);
+                customer.getPets().add(pet);
+            });
+        }
+        return customer;
+    }
 }
