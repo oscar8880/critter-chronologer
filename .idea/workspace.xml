@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d0583fc-bab1-4fe8-8fb7-e13bd667ff50" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/udacity/jdnd/course3/critter/repository/EmployeeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/udacity/jdnd/course3/critter/service/EmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/udacity/jdnd/course3/critter/user/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/udacity/jdnd/course3/critter/repository/ScheduleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/udacity/jdnd/course3/critter/schedule/Schedule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/udacity/jdnd/course3/critter/service/ScheduleService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/udacity/jdnd/course3/critter/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/udacity/jdnd/course3/critter/service/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/udacity/jdnd/course3/critter/service/PetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/udacity/jdnd/course3/critter/service/PetService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/udacity/jdnd/course3/critter/user/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/udacity/jdnd/course3/critter/user/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/udacity/jdnd/course3/critter/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/udacity/jdnd/course3/critter/user/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/udacity/jdnd/course3/critter/CritterFunctionalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/udacity/jdnd/course3/critter/CritterFunctionalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/udacity/jdnd/course3/critter/service/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/udacity/jdnd/course3/critter/service/CustomerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/udacity/jdnd/course3/critter/service/PetService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/udacity/jdnd/course3/critter/service/PetService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/udacity/jdnd/course3/critter/user/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/udacity/jdnd/course3/critter/user/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/udacity/jdnd/course3/critter/user/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/udacity/jdnd/course3/critter/user/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/udacity/jdnd/course3/critter/schedule/ScheduleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/udacity/jdnd/course3/critter/schedule/ScheduleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/udacity/jdnd/course3/critter/service/EmployeeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/udacity/jdnd/course3/critter/service/EmployeeService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/udacity/jdnd/course3/critter/CritterFunctionalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/udacity/jdnd/course3/critter/CritterFunctionalTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,8 +74,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CritterFunctionalTest" />
         <item itemvalue="Application.CritterApplication" />
+        <item itemvalue="JUnit.CritterFunctionalTest" />
       </list>
     </recent_temporary>
   </component>
@@ -122,39 +115,39 @@
     </state>
     <state x="779" y="123" width="800" height="721" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1680.934@0.23.1680.934" timestamp="1595436115951" />
     <state x="779" y="123" width="800" height="724" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1680.937@0.23.1680.937" timestamp="1595529492435" />
-    <state x="1013" y="174" key="#com.intellij.ide.util.MemberChooser" timestamp="1595523551474">
+    <state x="1013" y="174" key="#com.intellij.ide.util.MemberChooser" timestamp="1595535721852">
       <screen x="0" y="23" width="1680" height="937" />
     </state>
     <state x="1013" y="174" key="#com.intellij.ide.util.MemberChooser/0.23.1680.934@0.23.1680.934" timestamp="1595429814618" />
-    <state x="1013" y="174" key="#com.intellij.ide.util.MemberChooser/0.23.1680.937@0.23.1680.937" timestamp="1595523551474" />
-    <state width="1205" height="284" key="GridCell.Tab.0.bottom" timestamp="1595529692382">
+    <state x="1013" y="174" key="#com.intellij.ide.util.MemberChooser/0.23.1680.937@0.23.1680.937" timestamp="1595535721852" />
+    <state width="1185" height="284" key="GridCell.Tab.0.bottom" timestamp="1595538257479">
       <screen x="0" y="23" width="1680" height="937" />
     </state>
     <state width="977" height="284" key="GridCell.Tab.0.bottom/0.23.1680.927@0.23.1680.927" timestamp="1595506728217" />
     <state width="940" height="284" key="GridCell.Tab.0.bottom/0.23.1680.929@0.23.1680.929" timestamp="1595519891591" />
     <state width="958" height="521" key="GridCell.Tab.0.bottom/0.23.1680.934@0.23.1680.934" timestamp="1595439321306" />
-    <state width="1205" height="284" key="GridCell.Tab.0.bottom/0.23.1680.937@0.23.1680.937" timestamp="1595529692382" />
-    <state width="1205" height="284" key="GridCell.Tab.0.center" timestamp="1595529692381">
+    <state width="1185" height="284" key="GridCell.Tab.0.bottom/0.23.1680.937@0.23.1680.937" timestamp="1595538257479" />
+    <state width="1185" height="284" key="GridCell.Tab.0.center" timestamp="1595538257478">
       <screen x="0" y="23" width="1680" height="937" />
     </state>
     <state width="977" height="284" key="GridCell.Tab.0.center/0.23.1680.927@0.23.1680.927" timestamp="1595506728216" />
     <state width="940" height="284" key="GridCell.Tab.0.center/0.23.1680.929@0.23.1680.929" timestamp="1595519891590" />
     <state width="958" height="521" key="GridCell.Tab.0.center/0.23.1680.934@0.23.1680.934" timestamp="1595439321305" />
-    <state width="1205" height="284" key="GridCell.Tab.0.center/0.23.1680.937@0.23.1680.937" timestamp="1595529692381" />
-    <state width="1205" height="284" key="GridCell.Tab.0.left" timestamp="1595529692381">
+    <state width="1185" height="284" key="GridCell.Tab.0.center/0.23.1680.937@0.23.1680.937" timestamp="1595538257478" />
+    <state width="1185" height="284" key="GridCell.Tab.0.left" timestamp="1595538257478">
       <screen x="0" y="23" width="1680" height="937" />
     </state>
     <state width="977" height="284" key="GridCell.Tab.0.left/0.23.1680.927@0.23.1680.927" timestamp="1595506728215" />
     <state width="940" height="284" key="GridCell.Tab.0.left/0.23.1680.929@0.23.1680.929" timestamp="1595519891590" />
     <state width="958" height="521" key="GridCell.Tab.0.left/0.23.1680.934@0.23.1680.934" timestamp="1595439321305" />
-    <state width="1205" height="284" key="GridCell.Tab.0.left/0.23.1680.937@0.23.1680.937" timestamp="1595529692381" />
-    <state width="1205" height="284" key="GridCell.Tab.0.right" timestamp="1595529692382">
+    <state width="1185" height="284" key="GridCell.Tab.0.left/0.23.1680.937@0.23.1680.937" timestamp="1595538257478" />
+    <state width="1185" height="284" key="GridCell.Tab.0.right" timestamp="1595538257479">
       <screen x="0" y="23" width="1680" height="937" />
     </state>
     <state width="977" height="284" key="GridCell.Tab.0.right/0.23.1680.927@0.23.1680.927" timestamp="1595506728217" />
     <state width="940" height="284" key="GridCell.Tab.0.right/0.23.1680.929@0.23.1680.929" timestamp="1595519891591" />
     <state width="958" height="521" key="GridCell.Tab.0.right/0.23.1680.934@0.23.1680.934" timestamp="1595439321305" />
-    <state width="1205" height="284" key="GridCell.Tab.0.right/0.23.1680.937@0.23.1680.937" timestamp="1595529692382" />
+    <state width="1185" height="284" key="GridCell.Tab.0.right/0.23.1680.937@0.23.1680.937" timestamp="1595538257479" />
     <state width="1111" height="303" key="GridCell.Tab.1.bottom" timestamp="1595492406248">
       <screen x="0" y="23" width="1680" height="927" />
     </state>
