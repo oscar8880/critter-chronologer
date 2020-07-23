@@ -15,12 +15,16 @@ import java.util.List;
 public class PetService {
   @Autowired
   PetRepository petRepository;
+  CustomerService customerService;
 
   public List<Pet> getAllPets() {
     return petRepository.findAll();
   }
 
   public Pet savePet(Pet pet) {
+    System.out.println("Pet: "+ pet);
+    System.out.println("Pet.getCust: "+ pet.getCustomer());
+    customerService.addPetToCustomer(pet,pet.getCustomer());
     return petRepository.save(pet);
   }
 

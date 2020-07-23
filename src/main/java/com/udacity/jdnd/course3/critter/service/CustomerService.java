@@ -27,4 +27,14 @@ public class CustomerService {
   public Customer getOwnerByPet(Long petId) {
     return customerRepository.findByPets_Id(petId);
   }
+
+  public void addPetToCustomer(Pet pet, Customer customer) {
+    List<Pet> pets = customer.getPets();
+    if(pets == null){
+      pets = new ArrayList<Pet>();
+    }
+    pets.add(pet);
+    customer.setPets(pets);
+    customerRepository.save(customer);
+  }
 }
