@@ -4,7 +4,6 @@ import com.udacity.jdnd.course3.critter.pet.Pet;
 import org.hibernate.annotations.Nationalized;
 
 import javax.persistence.*;
-import java.util.ArrayList;
 import java.util.List;
 
 @Entity
