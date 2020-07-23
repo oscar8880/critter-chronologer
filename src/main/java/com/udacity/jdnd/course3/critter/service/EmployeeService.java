@@ -38,7 +38,8 @@ public class EmployeeService {
     DayOfWeek day = employeeRequestDTO.getDate().getDayOfWeek();
     Set<EmployeeSkill> skills = employeeRequestDTO.getSkills();
 
-    List<Employee> skilledEmployees = employeeRepository.findBySkillsIn(skills);
+    List<Employee> skilledEmployees = employeeRepository.findAll();
+    System.out.println(skilledEmployees.size());
     List<Employee> availableSkilledEmployees = new ArrayList<>();
 
     skilledEmployees.forEach(employee -> {
